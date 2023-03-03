@@ -34,4 +34,13 @@ function getBotResponse(input) {
     else {
         return "Try ask question in one word like:- Anger, Overwalmed, stressed, focus-problem, Fight etc.";
     }
+    
+     if (input == "i am feeling stress") {
+        return "I'm sorry to hear that you're feeling stressed. Stress is a common experience that many people go through at different times in their lives. It's important to take care of yourself when you're feeling stressed.
+
+Have you tried any techniques to help you manage your stress? There are many things you can do, such as deep breathing exercises, meditation, going for a walk, or talking to a trusted friend or therapist. It's also important to make sure you're getting enough sleep, eating well, and exercising regularly.
+
+Remember, taking care of yourself and managing your stress is important for your overall health and well-being If you're feeling overwhelmed, it may be helpful to speak with a mental health professional who can provide you with additional support and resources.";
+    } else if (input == "goodbye") {
+        return "Talk to you later!";
 }

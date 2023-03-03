@@ -39,4 +39,5 @@ function getBotResponse(input) {
         return " Remember, taking care of yourself and managing your stress is important for your overall health and well-being. If you're feeling overwhelmed, it may be helpful to speak with a mental health professional who can provide you with additional support and resources.";
     } else if (input == "goodbye") {
         return "Talk to you later!";
+    }
 }
